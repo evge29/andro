@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">Information</string>
+    <string name="info_placeholder">Here is some information</string>
+    <string name="image">Image</string>
+    <string-array name="filler_text">
+    <item>\'Aries loves to be number one, so it is no surprise that these audacious rams are the first sign of the zodiac.
+        Bold and ambitious, Aries dives headfirst into even the most challenging situations.
+        Aries is a passionate, motivated, and confident leader who builds community with their cheerful disposition and relentless determination.
+        Uncomplicated and direct in their approach, they often get frustrated by exhaustive details and unnecessary nuances.
+        This sign is ruled by Mars, the dynamic red planet named after the Roman god of war.
+        Accordingly, these courageous rams are always armed and ready for battle.
+        Aries is known for an explosive temper, and although their outbursts don\’t last long, it’s definitely best to avoid fiery rams until the steam has dissipated.
+        But when these brazen rams are not flying off the handles, they’re upbeat, positive, and playful creatures who enjoy living life to its fullest.\'
+    </item>
+        <item>\'Taurus is an earth sign represented by the bull.
+        Like their celestial spirit animal, Taureans enjoy relaxing in serene, bucolic environments, surrounded by soft sounds, soothing aromas, and succulent flavors.
+        Taurus is ruled by Venus, the enchanting planet that governs love, beauty, and money.
+        Taurus\’s Venusian influence make this earth sign the most sensual of the zodiac: These cosmic oxen are enchanted by any physical manifestation of comfort and luxury.
+        Pleasure is a necessity for epicurean Taureans, and they feel most content when pampered.
+        Taurus does have a bit of a reputation: What a Taurus perceives as dedication is often regarded by others as stubbornness.\'</item>
+        <item>\'Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face.
+        They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless.
+        They are fascinated with the world itself, extremely curious, with a constant feeling that there is not enough time to experience everything they want to see.
+        The sign of Gemini belongs to the element of Air and this connects it to all aspects of the mind.
+        It is ruled by Mercury, the planet that represents communication, writing, and movement.
+        People born under this Sun sign often have a feeling that their other half is missing, so they are forever seeking new friends, mentors, colleagues and people to talk to.\'</item>
+        <item>\'Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know.
+        They are very emotional and sensitive, and care deeply about matters of the family and their home.
+        Cancer is sympathetic and attached to people they keep close. Those born with their Sun in Cancer are very loyal and able to empathize with other people's pain and suffering.
+        The sign of Cancer belongs to the element of Water, just like Scorpio and Pisces. Guided by emotion and their heart, they could have a hard time blending into the world around them.
+        Being ruled by the Moon, phases of the lunar cycle deepen their internal mysteries and create fleeting emotional patterns that are beyond their control.
+        As children, they don\'t have enough coping and defensive mechanisms for the outer world, and have to be approached with care and understanding, for that is what they give in return.\'</item>
+        <item>\'People born under the sign of Leo are natural born leaders.
+        They are dramatic, creative, self-confident, dominant and extremely difficult to resist, able to achieve anything they want to in any area of life they commit to.
+        There is a specific strength to a Leo and their "king of the jungle" status. Leo often has many friends for they are generous and loyal.
+        Self-confident and attractive, this is a Sun sign capable of uniting different groups of people and leading them as one towards a shared cause, and their healthy sense of humor makes collaboration with other people even easier.
+        Leo belongs to the element of Fire. This makes them warmhearted, in love with life, trying to laugh and have a good time. Able to use their mind to solve even the most difficult problems, they will easily take initiative in resolving various complicated situations.
+        Ruled by the Sun, Leo worships this fiery entity in the sky, quite literally as well as metaphorically.\'</item>
+        <item>\'Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance, and although they are often tender, their heart might be closed for the outer world. This is a sign often misunderstood, not because they lack the ability to express, but because they won’t accept their feelings as valid, true, or even relevant when opposed to reason. The symbolism behind the name speaks well of their nature, born with a feeling they are experiencing everything for the first time.
+        Virgo is an Earth sign, fitting perfectly between Taurus and Capricorn. This will lead to a strong character, but one that prefers conservative, well-organized things and a lot of practicality in their everyday life. These individuals have an organized life, and even when they let go to chaos, their goals and dreams still have strictly defined borders in their mind.\'</item>
+        <item>\'People born under the sign of Libra are peaceful, fair, and they hate being alone.
+        Partnership is very important for them, as their mirror and someone giving them the ability to be the mirror themselves.
+        These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality, realizing through life that the only thing that should be truly important to themselves in their own inner core of personality.
+        This is someone ready to do nearly anything to avoid conflict, keeping the peace whenever possible.
+        The sign of Libra is an Air sign giving these individuals constant mental stimuli, strong intellect and a keen mind.
+        They will be inspired by good books, insurmountable discussions and people who have a lot to say. \'</item>
+        <item>\'Scorpio-born are passionate and assertive people. They are determined and decisive, and will research until they find out the truth.
+        Scorpio is a great leader, always aware of the situation and also features prominently in resourcefulness.
+        Scorpio is a Water sign and lives to experience and express emotions.
+        Although emotions are very important for Scorpio, they manifest them differently than other water signs.
+        In any case, you can be sure that the Scorpio will keep your secrets, whatever they may be\'</item>
+        <item>\'Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs.
+        Their open mind and philosophical view motivates them to wander around the world in search of the meaning of life.
+        Sagittarius is extrovert, optimistic and enthusiastic, and likes changes.
+        Sagittarius-born are able to transform their thoughts into concrete actions and they will do anything to achieve their goals.
+        Like the other fire signs, Sagittarius needs to be constantly in touch with the world to experience as much as possible.
+        The ruling planet of Sagittarius is Jupiter, the largest planet of the zodiac.
+        Their enthusiasm has no bounds, and therefore people born under the Sagittarius sign possess a great sense of humor and an intense curiosity.\'</item>
+        <item>\'Capricorn is a sign that represents time and responsibility, and its representatives are traditional and often very serious by nature.
+        These individuals possess an inner state of independence that enables significant progress both in their personal and professional lives.
+        They are masters of self-control and have the ability to lead the way, make solid and realistic plans, and manage many people who work for them at any time.
+        They will learn from their mistakes and get to the top based solely on their experience and expertise.
+        Belonging to the element of Earth , like Taurus and Virgo, this is the last sign in the trio of practicality and grounding.
+        Not only do they focus on the material world, but they have the ability to use the most out of it. Unfortunately, this element also makes them stiff and sometimes too stubborn to move from one perspective or point in a relationship.\'</item>
+        <item>\'Aquarius-born are shy and quiet , but on the other hand they can be eccentric and energetic.
+        However, in both cases, they are deep thinkers and highly intellectual people who love helping others. They are able to see without prejudice, on both sides, which makes them people who can easily solve problems.
+        Although they can easily adapt to the energy that surrounds them, Aquarius-born have a deep need to be some time alone and away from everything, in order to restore power.
+        People born under the Aquarius sign, look at the world as a place full of possibilities.
+        Aquarius is an air sign, and as such, uses his mind at every opportunity. If there is no mental stimulation, they are bored and lack a motivation to achieve the best result.\'</item>
+        <item>\'Pisces are very friendly, so they often find themselves in a company of very different people.
+        Pisces are selfless, they are always willing to help others, without hoping to get anything back.
+        Pisces is a Water sign and as such this zodiac sign is characterized by empathy and expressed emotional capacity.
+        Their ruling planet is Neptune, so Pisces are more intuitive than others and have an artistic talent.
+        Neptune is connected to music, so Pisces reveal music preferences in the earliest stages of life. They are generous, compassionate and extremely faithful and caring.
+        People born under the Pisces sign have an intuitive understanding of the life cycle and thus achieve the best emotional relationship with other beings.\'</item>
+    </string-array>
+    <string-array name="titles">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Vigro</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+
+
+    </string-array>
+
+    <string-array name="info">
+        <item>Found out more about Aries!</item>
+        <item>Found out more about Taurus!</item>
+        <item>Found out more about Gemini!</item>
+        <item>Found out more about Cancer!</item>
+        <item>Found out more about Leo!</item>
+        <item>Found out more about Vigro!</item>
+        <item>Found out more about Libra!</item>
+        <item>Found out more about Scorpio!</item>
+        <item>Found out more about Sagittarius!</item>
+        <item>Found out more about Capricorn!</item>
+        <item>Found out more about Aquarius!</item>
+        <item>Found out more about Pisces!</item>
+
+
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/aries</item>
+        <item>@drawable/taurus</item>
+        <item>@drawable/gemini</item>
+        <item>@drawable/cancer</item>
+        <item>@drawable/leo</item>
+        <item>@drawable/virgo</item>
+        <item>@drawable/libra</item>
+        <item>@drawable/scorpio</item>
+        <item>@drawable/sagittarius</item>
+        <item>@drawable/capricorn</item>
+        <item>@drawable/aquarius</item>
+        <item>@drawable/pisces</item>
+    </array>
+
+</resources>
