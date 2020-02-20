@@ -16,10 +16,11 @@ public class Horoscope {
     public static String IMAGE_KEY = "Image Resource";
     public static String TEXT_KEY= "Text";
 
-    public Horoscope(String title, String info, int imageResource) {
+    public Horoscope(String title, String info, int imageResource,String text) {
         this.title = title;
         this.info = info;
         this.imageResource = imageResource;
+        this.text=text;
     }
 
 

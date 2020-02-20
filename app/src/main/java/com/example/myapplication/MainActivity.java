@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
 
 
 import java.util.ArrayList;
@@ -22,12 +23,14 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Horoscope> mData;
     private RecyclerView.Adapter mAdapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
 
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -44,10 +47,17 @@ public class MainActivity extends AppCompatActivity {
 
         initializeData();
 
+        int swipeDirs;
+        if(gridColumnCount> 1){
+            swipeDirs = 0;
+        } else {
+            swipeDirs = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+        }
+
 
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback
                 (ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT | ItemTouchHelper.DOWN
-                        | ItemTouchHelper.UP, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
+                        | ItemTouchHelper.UP, swipeDirs) {
 
                      @Override
             public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder,
@@ -83,17 +93,17 @@ public class MainActivity extends AppCompatActivity {
         String[] signList = getResources().getStringArray(R.array.titles);
         String[] signInfo = getResources().getStringArray(R.array.info);
         String[] signListinfo = getResources().getStringArray(R.array.filler_text);
-        TypedArray sportsImageResources = getResources().obtainTypedArray(R.array.images);
+        TypedArray signImageResources = getResources().obtainTypedArray(R.array.images);
               mData.clear();
 
 
         for(int i=0; i<signList.length; i++){
             mData.add(new Horoscope(signList[i], signInfo[i],
-                    sportsImageResources.getResourceId(i,0)));
+                    signImageResources.getResourceId(i,0),signListinfo[i]));
         }
 
 
-        sportsImageResources.recycle();
+        signImageResources.recycle();
 
 
         mAdapter.notifyDataSetChanged();

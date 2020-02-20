@@ -45,7 +45,6 @@ public class DetailActivity extends AppCompatActivity {
 
 
         Title.setText(getIntent().getStringExtra(Horoscope.TITLE_KEY));
-        String[] signList = getResources().getStringArray(R.array.titles);
 
 
         Text.setText(getIntent().getStringExtra(Horoscope.TEXT_KEY));

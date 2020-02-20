@@ -43,7 +43,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/newsTitleDetail"
             android:padding="@dimen/activity_horizontal_margin"
-            android:text="Something more about your sign"
             />
     </RelativeLayout>
 </ScrollView>

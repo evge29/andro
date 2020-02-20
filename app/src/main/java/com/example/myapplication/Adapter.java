@@ -84,7 +84,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.HoroscopeViewHolder> {
             mTitleText = (TextView)itemView.findViewById(R.id.title);
             mInfoText = (TextView)itemView.findViewById(R.id.subTitle);
             mImage = (ImageView)itemView.findViewById(R.id.Image);
-            mText=(TextView)itemView.findViewById(R.id.subTitleDetail);
+            mText=(TextView)itemView.findViewById(R.id.newsTitle);
 
             mContext = context;
             mGradientDrawable = gradientDrawable;
